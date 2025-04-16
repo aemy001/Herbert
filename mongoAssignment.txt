@@ -1,0 +1,38 @@
+Q1. WRITE 5 DIFFRENCE BETWEEN MONGO DB AND SQL?
+Both NoSQL and SQL support Data Manipulation Language (DML) and Data Definition Language (DDL) operations.
+DIFFERENCE BETWEEN MONGODB AND SQL:
+1.	MongoDB stores data in a collection in a JSON document form whereas SQL stores data in table form with rows and columns.
+2.	MongoDB is a schema-less structure which allows different documents in a collection to have different fields in them whereas SQL follows a fixed schema, which requires all rows to have same column.
+3.	MongoDB is a NoSQL database which uses a JSON-like query language and SQL is a relational database management system (RDBMS) that uses structured query language.
+4.	MongoDB is ideal for applications requiring high scalability and throughput whereas SQL is ideal for applications with structured data and complex queries.
+5.	
+MongoDB uses JavaScript like query language (MQL). 
+* Example for insertion: 
+db.users.insertOne({ name: "aimon", age: 22 });
+
+SQL uses structured query language.
+* Example for insertion:
+INSERT INTO Users (name, age) VALUES (‘aimon’, 22);
+
+
+Q2.WRITE ALL 6 COMMANDS AND THEIR WORK IN ROMAN URDU IN NOTE PADE FILE.
+
+1. db.users.insertOne({ name: "aimon", age: 22 });
+this command is used to insert records in the collection.
+
+2. use databaseName
+this command is used to create database.
+
+3. show databases or show dbs
+this command is used to show databases in a cluster
+
+4. show collections
+this command is used to show collections in a database
+
+5.db.createCollection("Users")
+this command is used to create collection in a database
+
+6. db.Users.find()
+this command is used to search all documents present in that collection.
+
+

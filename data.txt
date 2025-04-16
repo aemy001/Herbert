@@ -1,0 +1,53 @@
+    customer:
+{ 
+   "age":25,
+    "phone":"325689",
+     "address":"karachi, newtown"
+}
+
+
+
+carrrier:
+{
+    "carrName":"national logistics",
+     "dotnumber":"5894wqddf4",
+      "contactname":"Hamza",
+       "contactemail":"hamza@gmail.com",
+        "fax":"011 44 (161) 999 8888",
+         "website":"www.nationalnlc.com/",
+          "listpLanes":"khi,highway,m9road",
+           "listbackhaul":"blah,blah,blah",
+            "equipmentType":["HotShot","Flatbed with Pallet EX"],
+             "miscinfo":"go awayyyy"
+}
+
+
+freightorder:{
+    {
+     "firstname": "firstname",
+    "lastname":"lastname",
+    "companyname":"companyname",
+    "email":"email",
+    "phone":"phone",
+    "fax":"fax",
+    "pickupdate":"pickupdate",
+    "deliverydate":"deliverydate",
+    "suggestrate":"suggestrate",
+    "pickupcity":"pickupcity",
+    "pickupprovince":"pickupprovince",
+    "pickupzip":"pickupzip",
+    "pickupcountry":"pickupcountry",
+    "dropoffcity":"dropoffcity",
+    "dropoffprovince":"dropoffprovince",
+    "dropoffzip":"dropoffzip",
+    "otherinfo":"otherinfo",
+    "pallets":"yes",
+    "exchangepallets":"yes",
+    "numofpallets":"numofpallets",
+    "equipmentType":"['HotShot', 'Flatbed with Pallet EX','Flatbed']",
+    "tarp":"yes",
+    "driverassist":"yes",
+    "othercomments":"othercomments",
+    "driverinstructions":"driverinstructions"
+}
+}
